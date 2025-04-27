@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع تكريم للشاعر السوداني محمد الحسن سالم حميد (Himmaid)، يضم سيرته الذاتية وأشعاره وتسجيلاته الصوتية ومقاطع الفيديو.">
+    <meta name="keywords" content="محمد الحسن سالم حميد, Himmaid, شعر سوداني, شاعر سوداني, أدب سوداني, تراث سوداني">
+    <title>{% block title %}محمد الحسن سالم حميد | Himmaid{% endblock %}</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    {% block head_extra %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">محمد الحسن سالم حميد</h1>
+                    <p class="site-subtitle">Himmaid - شاعر السودان</p>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="/">الرئيسية</a></li>
+                        <li class="nav-item"><a href="/about">السيرة الذاتية</a></li>
+                        <li class="nav-item"><a href="/poems">القصائد</a></li>
+                        <li class="nav-item"><a href="/audio">التسجيلات الصوتية</a></li>
+                        <li class="nav-item"><a href="/video">مقاطع الفيديو</a></li>
+                        <li class="nav-item"><a href="/submit">شارك معنا</a></li>
+                        <li class="nav-item"><a href="/contact">اتصل بنا</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© جميع الحقوق محفوظة 2023 - موقع محمد الحسن سالم حميد (Himmaid)</p>
+                <p class="footer-text">هذا الموقع مخصص لتخليد ذكرى الشاعر وإبقاء تراثه حياً للأجيال القادمة</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>
