@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87ceeb" />
+      <stop offset="100%" stop-color="#b0e0e6" />
+    </linearGradient>
+    <linearGradient id="riverGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4682b4" />
+      <stop offset="50%" stop-color="#5f9ea0" />
+      <stop offset="100%" stop-color="#4682b4" />
+    </linearGradient>
+    <linearGradient id="bankGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b7355" />
+      <stop offset="100%" stop-color="#b39c7d" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="url(#skyGradient)" />
+  
+  <!-- Sun -->
+  <circle cx="650" cy="100" r="40" fill="#ffd700" opacity="0.8" />
+  <circle cx="650" cy="100" r="50" fill="#ffd700" opacity="0.3" />
+  
+  <!-- Distant hills -->
+  <path d="M0,200 Q100,150 200,180 T400,150 T600,190 T800,170 V300 H0 Z" fill="#708238" opacity="0.6" />
+  <path d="M0,220 Q200,180 400,220 T800,190 V300 H0 Z" fill="#556b2f" opacity="0.4" />
+  
+  <!-- River banks -->
+  <path d="M0,300 Q200,350 400,300 T800,350 V600 H0 Z" fill="url(#bankGradient)" />
+  
+  <!-- River -->
+  <path d="M0,400 Q200,350 400,400 T800,350 V450 Q600,500 400,450 T0,500 Z" fill="url(#riverGradient)" opacity="0.8" />
+  
+  <!-- River ripples -->
+  <path d="M100,380 Q150,375 200,385 T300,380" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M500,380 Q550,375 600,385 T700,380" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,410 Q250,415 300,405 T400,410" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M600,410 Q650,415 700,405 T800,410" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.3" />
+  
+  <!-- Reeds on bank -->
+  <path d="M100,350 L95,320 M100,350 L100,320 M100,350 L105,320" stroke="#556b2f" stroke-width="1" fill="none" />
+  <path d="M150,340 L145,310 M150,340 L150,310 M150,340 L155,310" stroke="#556b2f" stroke-width="1" fill="none" />
+  <path d="M650,340 L645,310 M650,340 L650,310 M650,340 L655,310" stroke="#556b2f" stroke-width="1" fill="none" />
+  <path d="M700,350 L695,320 M700,350 L700,320 M700,350 L705,320" stroke="#556b2f" stroke-width="1" fill="none" />
+</svg>

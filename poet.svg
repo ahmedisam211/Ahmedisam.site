@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <!-- Circular background for profile picture -->
+  <circle cx="200" cy="200" r="180" fill="#d5c6a8" />
+  <circle cx="200" cy="200" r="170" fill="#f5f0e1" />
+  
+  <!-- Stylized silhouette of a poet -->
+  <path d="M200,80 C230,80 255,90 270,110 C285,130 295,160 295,200 C295,250 270,300 200,300 C130,300 105,250 105,200 C105,160 115,130 130,110 C145,90 170,80 200,80 Z" fill="#8b7355" />
+  
+  <!-- Head -->
+  <circle cx="200" cy="150" r="50" fill="#b39c7d" />
+  
+  <!-- Stylized turban or traditional headwear -->
+  <path d="M150,130 C150,100 250,100 250,130 C250,110 240,90 200,90 C160,90 150,110 150,130 Z" fill="#d5c6a8" />
+  
+  <!-- Shoulders and robe -->
+  <path d="M140,200 L120,300 L280,300 L260,200 Q250,180 200,180 Q150,180 140,200 Z" fill="#b39c7d" />
+  
+  <!-- Face features (minimalist) -->
+  <ellipse cx="185" cy="140" rx="5" ry="7" fill="#3a3226" /> <!-- Left eye -->
+  <ellipse cx="215" cy="140" rx="5" ry="7" fill="#3a3226" /> <!-- Right eye -->
+  <path d="M190,160 Q200,170 210,160" stroke="#3a3226" stroke-width="2" fill="none" /> <!-- Smile -->
+  <path d="M180,125 Q200,115 220,125" stroke="#3a3226" stroke-width="2" fill="none" /> <!-- Eyebrows -->
+  
+  <!-- Traditional pen/quill in hand -->
+  <path d="M260,220 L300,180" stroke="#3a3226" stroke-width="2" />
+  <path d="M300,180 L310,170 L295,175 Z" fill="#3a3226" />
+  
+  <!-- Paper/scroll -->
+  <path d="M250,230 C270,220 280,240 260,250 L240,260 C220,270 210,250 230,240 Z" fill="#f5f0e1" stroke="#3a3226" />
+  <path d="M235,245 L255,235 M240,250 L260,240" stroke="#3a3226" opacity="0.5" />
+  
+  <!-- Decorative border -->
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#b39c7d" stroke-width="5" stroke-dasharray="10,5" />
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#8b7355" stroke-width="3" />
+</svg>
