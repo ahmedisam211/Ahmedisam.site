@@ -45,55 +45,48 @@
                     نرحب بمساهماتكم في إثراء هذا الموقع بالمزيد من المواد المتعلقة بالشاعر محمد الحسن سالم حميد. إذا كان لديك قصائد، تسجيلات صوتية، مقاطع فيديو، صور، ذكريات شخصية، أو أي مواد أخرى تتعلق بالشاعر، يرجى ملء النموذج أدناه لمشاركتها معنا.
                 </p>
 
-                <form id="submit-form" class="form">
-                    <div class="form-group">
-                        <label for="submitter-name">الاسم الكامل</label>
-                        <input type="text" id="submitter-name" name="submitter-name" class="form-control" required>
-                    </div>
+                <form id="submit-form" class="form" action="https://formspree.io/f/xblolpyr" method="POST">
+    <div class="form-group">
+        <label for="submitter-name">الاسم الكامل</label>
+        <input type="text" id="submitter-name" name="submitter-name" class="form-control" required>
+    </div>
 
-                    <div class="form-group">
-                        <label for="submitter-email">البريد الإلكتروني</label>
-                        <input type="email" id="submitter-email" name="submitter-email" class="form-control" required>
-                    </div>
+    <div class="form-group">
+        <label for="submitter-email">البريد الإلكتروني</label>
+        <input type="email" id="submitter-email" name="submitter-email" class="form-control" required>
+    </div>
 
-                    <div class="form-group">
-                        <label for="content-type">نوع المحتوى</label>
-                        <select id="content-type" name="content-type" class="form-control" required>
-                            <option value="">-- اختر نوع المحتوى --</option>
-                            <option value="poem">قصيدة</option>
-                            <option value="memory">ذكرى شخصية</option>
-                            <option value="audio">تسجيل صوتي</option>
-                            <option value="video">مقطع فيديو</option>
-                            <option value="photo">صورة</option>
-                            <option value="article">مقال أو دراسة</option>
-                            <option value="other">أخرى</option>
-                        </select>
-                    </div>
+    <div class="form-group">
+        <label for="content-type">نوع المحتوى</label>
+        <select id="content-type" name="content-type" class="form-control" required>
+            <option value="">-- اختر نوع المحتوى --</option>
+            <option value="poem">قصيدة</option>
+            <option value="memory">ذكرى شخصية</option>
+            <option value="audio">تسجيل صوتي</option>
+            <option value="video">مقطع فيديو</option>
+            <option value="photo">صورة</option>
+            <option value="article">مقال أو دراسة</option>
+            <option value="other">أخرى</option>
+        </select>
+    </div>
 
-                    <div class="form-group">
-                        <label for="content">المحتوى</label>
-                        <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
-                        <small>إذا كان المحتوى عبارة عن ملف (تسجيل صوتي، فيديو، صورة)، يرجى إرفاق رابط تحميل الملف أو التواصل معنا عبر البريد الإلكتروني.</small>
-                    </div>
+    <div class="form-group">
+        <label for="content">المحتوى</label>
+        <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
+        <small>إذا كان المحتوى عبارة عن ملف (تسجيل صوتي، فيديو، صورة)، يرجى إرفاق رابط تحميل الملف أو التواصل معنا عبر البريد الإلكتروني.</small>
+    </div>
 
-                    <div class="form-group">
-                        <label for="description">وصف المحتوى</label>
-                        <textarea id="description" name="description" class="form-control" rows="5"></textarea>
-                        <small>يرجى تقديم معلومات إضافية عن المحتوى مثل تاريخه، ومصدره، وسياقه.</small>
-                    </div>
+    <div class="form-group">
+        <label for="description">وصف المحتوى</label>
+        <textarea id="description" name="description" class="form-control" rows="5"></textarea>
+        <small>يرجى تقديم معلومات إضافية عن المحتوى مثل تاريخه، ومصدره، وسياقه.</small>
+    </div>
 
-                    <div class="form-group">
-                        <label for="permission">الإذن بالاستخدام</label>
-                        <div>
-                            <input type="checkbox" id="permission" name="permission" required>
-                            <label for="permission">أنا أملك الحقوق اللازمة لهذا المحتوى أو لدي إذن من المالك، وأوافق على مشاركته على هذا الموقع.</label>
-                        </div>
-                    </div>
+    <div class="text-center">
+        <button type="submit" class="btn">إرسال المحتوى</button>
+    </div>
+</form>
 
-                    <div class="text-center">
-                        <button type="submit" class="btn">إرسال المحتوى</button>
-                    </div>
-                </form>
 
                 <div class="section" style="margin-top: 2rem;">
                     <h3 style="margin-bottom: 1rem;">ملاحظة مهمة</h3>
